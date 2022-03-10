@@ -60,7 +60,7 @@ section {
 
 section.branco{
     background-color: white;
-    min-height: 700px;
+    min-height: 100vh;
 }
 
 section.branco article {
@@ -69,11 +69,13 @@ section.branco article {
 
 section.transparente {
     background-color: transparent;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.199);
 }
 
 section.transparente article {
-    background-color: rgba(0, 0, 0, 0.37);
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.521);
 }
 
 article {
@@ -85,24 +87,26 @@ article {
 
 article p {
     font-size: 3vw;
-    min-height: 13vh;
+    min-height: 12vh;
     
 }
 
 #joaninha {
     background-image: url(imagens/background001.jpg);
-    background-position: center;
+    background-position: center right;
     background-repeat: no-repeat;
     height: 100vh;
     background-attachment: fixed;
+    background-size: cover;
 }        
 
 #papel {
     background-image: url(imagens/background002.jpg);
-    background-position: center;
+    background-position: center right;
     background-repeat: no-repeat;
     height: 100vh;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 footer {
